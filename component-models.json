@@ -114,15 +114,17 @@
         ]
       }
     ]
-  },
+  },    
   {
     "id": "cards",
     "fields": [
       {
         "component": "multiselect",
         "name": "classes",
+        "value": "",
         "label": "Card classes",
         "description": "A List of cards classes",
+        "valueType": "string",
         "options": [
           {
             "name": "Grid 2",
